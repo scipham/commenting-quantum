@@ -23,7 +23,7 @@ import wandb
 import deepspeed
 
 
-def main(dataset_label, train_articles_filepath, train_comments_filepath, val_articles_filepath, val_comments_filepath,hf_model_id, train_batch_size, val_batch_size,  train_epochs, val_epochs, learning_rate, seed, max_source_len, max_target_len, wandb_project_name, deepspeed_config_filepath ):
+def main(dataset_label, train_articles_filepath, train_comments_filepath, val_articles_filepath, val_comments_filepath,hf_model_id, train_batch_size, val_batch_size,  train_epochs, val_epochs, learning_rate, seed, max_source_len, max_target_len, model_output_dir,wandb_project_name, deepspeed_config_filepath ):
     
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     
@@ -92,7 +92,7 @@ def main(dataset_label, train_articles_filepath, train_comments_filepath, val_ar
     
     #For deepspeed we need to initialize the training arguments before loading the pretrained model
     training_args = TrainingArguments(
-                    output_dir='/data1/s1930443/hf_models',
+                    output_dir=model_output_dir,
                     report_to="wandb",
                     logging_steps=5, 
                     per_device_train_batch_size=config.TRAIN_BATCH_SIZE,
@@ -129,7 +129,7 @@ def main(dataset_label, train_articles_filepath, train_comments_filepath, val_ar
     checkpoint_dir = os.path.join(trainer.args.output_dir, "checkpoint-final")
     trainer.deepspeed.save_checkpoint(checkpoint_dir)
     model.cpu()
-    trainer.save_model("/data1/s1930443/hf_models/")
+    trainer.save_model(model_output_dir)
     
     
     print("Successfully finished and closing now. Goodbye!")
@@ -140,7 +140,7 @@ def main(dataset_label, train_articles_filepath, train_comments_filepath, val_ar
 if __name__ == '__main__':
     
     script_kwargs = {}
-    print("Arguments passed to the script: ", sys.argv)
+    
     c_arg = None
     for arg in sys.argv[1:]: # skip the script name
         if "--" in arg:
