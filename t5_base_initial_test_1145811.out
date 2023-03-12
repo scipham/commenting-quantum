@@ -1,0 +1,42 @@
+## Current dircectory /home/s1930443/MRP1
+## Number of available CUDA devices: 0,1,2,3
+## Checking status of CUDA device with nvidia-smi
+Sun Mar 12 14:54:37 2023       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 418.87.00    Driver Version: 525.60.13    CUDA Version: 12.0     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  NVIDIA GeForce ...  Off  | 00000000:5A:00.0 Off |                  N/A |
+| 30%   27C    P8    10W / 250W |    252MiB / 11264MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  NVIDIA GeForce ...  Off  | 00000000:62:00.0 Off |                  N/A |
+| 29%   27C    P8    19W / 250W |    252MiB / 11264MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  NVIDIA GeForce ...  Off  | 00000000:B9:00.0 Off |                  N/A |
+| 30%   26C    P8    17W / 250W |    252MiB / 11264MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  NVIDIA GeForce ...  Off  | 00000000:C1:00.0 Off |                  N/A |
+| 29%   24C    P8    21W / 250W |    252MiB / 11264MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+[/bin/bash] #### Starting Initial T5 Training Test
+[/bin/bash] ## This is s1930443 on node851 and this job has the ID 1145811
+[/bin/bash] ## current working directory: /home/s1930443/MRP1
+[/bin/bash] ## Run script
+17491 17491
+Starting train test split...
+Preparing subsets...
+Train test split succesfull! Took 0.02139425277709961 seconds for splitting 17491 dataset entries into 13992 and 3499
+Initiating Fine-Tuning for the model on our dataset
+{'loss': 8.7149, 'learning_rate': 9.992853058890796e-05, 'epoch': 0.0}
+{'loss': 2.3319, 'learning_rate': 9.985706117781591e-05, 'epoch': 0.0}
+{'loss': 1.9187, 'learning_rate': 9.978559176672385e-05, 'epoch': 0.0}
+{'loss': 1.7699, 'learning_rate': 9.971412235563179e-05, 'epoch': 0.0}
