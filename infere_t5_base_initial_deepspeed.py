@@ -14,6 +14,7 @@ from manage_data import CustomDataset, preprocess_article_text, preprocess_comme
 from torch.utils.data import DataLoader
 #from datasets import Dataset
 from transformers import T5Tokenizer, T5ForConditionalGeneration, T5Config, Trainer, TrainingArguments
+from transformers.trainer_utils import get_last_checkpoint
 #require sentencepiece
 import wandb
 import deepspeed
