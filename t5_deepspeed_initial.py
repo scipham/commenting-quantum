@@ -119,8 +119,8 @@ def main(dataset_label, train_articles_filepath, train_comments_filepath, val_ar
     trainer = Trainer(
         model=model,
         args=training_args,
-        train_dataset=train_dataset,
-        eval_dataset=val_dataset,
+        train_dataset=train_dataset_inst,
+        eval_dataset=val_dataset_inst,
         #compute_metrics=compute_metrics,
     )
     trainer.train()

@@ -1,0 +1,318 @@
+wandb: Currently logged in as: thomas-rothe (rothe). Use `wandb login --relogin` to force relogin
+wandb: Currently logged in as: thomas-rothe (rothe). Use `wandb login --relogin` to force relogin
+wandb: Currently logged in as: thomas-rothe (rothe). Use `wandb login --relogin` to force relogin
+wandb: Currently logged in as: thomas-rothe (rothe). Use `wandb login --relogin` to force relogin
+wandb: wandb version 0.13.11 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.13.10
+wandb: Run data is saved locally in /data1/s1930443/wandb/wandb/run-20230312_181127-3kjbt90z
+wandb: Run `wandb offline` to turn off syncing.
+wandb: wandb version 0.13.11 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.13.10
+wandb: Run data is saved locally in /data1/s1930443/wandb/wandb/run-20230312_181127-qn4frnc1
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run genial-tree-19
+wandb: ⭐️ View project at https://wandb.ai/rothe/t5-deepspeed-alice-initial-test
+wandb: 🚀 View run at https://wandb.ai/rothe/t5-deepspeed-alice-initial-test/runs/3kjbt90z
+wandb: wandb version 0.13.11 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.13.10
+wandb: Run data is saved locally in /data1/s1930443/wandb/wandb/run-20230312_181127-6scwxx4f
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run youthful-butterfly-18
+wandb: ⭐️ View project at https://wandb.ai/rothe/t5-deepspeed-alice-initial-test
+wandb: 🚀 View run at https://wandb.ai/rothe/t5-deepspeed-alice-initial-test/runs/qn4frnc1
+wandb: wandb version 0.13.11 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.13.10
+wandb: Run data is saved locally in /data1/s1930443/wandb/wandb/run-20230312_181127-1vqzize9
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run twilight-snow-17
+wandb: ⭐️ View project at https://wandb.ai/rothe/t5-deepspeed-alice-initial-test
+wandb: 🚀 View run at https://wandb.ai/rothe/t5-deepspeed-alice-initial-test/runs/6scwxx4f
+wandb: Syncing run volcanic-snowball-20
+wandb: ⭐️ View project at https://wandb.ai/rothe/t5-deepspeed-alice-initial-test
+wandb: 🚀 View run at https://wandb.ai/rothe/t5-deepspeed-alice-initial-test/runs/1vqzize9
+Using /home/s1930443/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+Using /home/s1930443/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+Using /home/s1930443/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+Using /home/s1930443/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /home/s1930443/.cache/torch_extensions/py310_cu117/cpu_adam/build.ninja...
+Building extension module cpu_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+Loading extension module cpu_adam...
+Loading extension module cpu_adam...
+Loading extension module cpu_adam...
+Loading extension module cpu_adam...
+Using /home/s1930443/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...Using /home/s1930443/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+
+Using /home/s1930443/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+Using /home/s1930443/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+Emitting ninja build file /home/s1930443/.cache/torch_extensions/py310_cu117/utils/build.ninja...
+Building extension module utils...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+Loading extension module utils...
+Loading extension module utils...Loading extension module utils...
+
+Loading extension module utils...
+Using /home/s1930443/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...Using /home/s1930443/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...Using /home/s1930443/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+
+
+No modifications detected for re-loaded extension module utils, skipping build step...
+Loading extension module utils...
+No modifications detected for re-loaded extension module utils, skipping build step...
+Loading extension module utils...
+No modifications detected for re-loaded extension module utils, skipping build step...
+Loading extension module utils...
+/data1/s1930443/conda_pkgs/T5-test-env/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py:2387: UserWarning: torch.distributed._all_gather_base is a private function and will be deprecated. Please use torch.distributed.all_gather_into_tensor instead.
+  warnings.warn(
+/data1/s1930443/conda_pkgs/T5-test-env/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py:2387: UserWarning: torch.distributed._all_gather_base is a private function and will be deprecated. Please use torch.distributed.all_gather_into_tensor instead.
+  warnings.warn(
+/data1/s1930443/conda_pkgs/T5-test-env/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py:2387: UserWarning: torch.distributed._all_gather_base is a private function and will be deprecated. Please use torch.distributed.all_gather_into_tensor instead.
+  warnings.warn(
+Using /home/s1930443/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+No modifications detected for re-loaded extension module utils, skipping build step...
+Loading extension module utils...
+***** Running training *****
+  Num examples = 11993
+  Num Epochs = 1
+  Instantaneous batch size per device = 2
+  Total train batch size (w. parallel, distributed & accumulation) = 8
+  Gradient Accumulation steps = 1
+  Total optimization steps = 1500
+  Number of trainable parameters = 0
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+  0%|          | 0/1500 [00:00<?, ?it/s]The following columns in the training set don't have a corresponding argument in `T5ForConditionalGeneration.forward` and have been ignored: article_id, comment_id. If article_id, comment_id are not expected by `T5ForConditionalGeneration.forward`,  you can safely ignore this message.
+/data1/s1930443/conda_pkgs/T5-test-env/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py:2387: UserWarning: torch.distributed._all_gather_base is a private function and will be deprecated. Please use torch.distributed.all_gather_into_tensor instead.
+  warnings.warn(
+/data1/s1930443/conda_pkgs/T5-test-env/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py:2849: UserWarning: torch.distributed._reduce_scatter_base is a private function and will be deprecated. Please use torch.distributed.reduce_scatter_tensor instead.
+  warnings.warn(
+/data1/s1930443/conda_pkgs/T5-test-env/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py:2849: UserWarning: torch.distributed._reduce_scatter_base is a private function and will be deprecated. Please use torch.distributed.reduce_scatter_tensor instead.
+  warnings.warn(
+/data1/s1930443/conda_pkgs/T5-test-env/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py:2849: UserWarning: torch.distributed._reduce_scatter_base is a private function and will be deprecated. Please use torch.distributed.reduce_scatter_tensor instead.
+  warnings.warn(
+/data1/s1930443/conda_pkgs/T5-test-env/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py:2849: UserWarning: torch.distributed._reduce_scatter_base is a private function and will be deprecated. Please use torch.distributed.reduce_scatter_tensor instead.
+  warnings.warn(
+  0%|          | 1/1500 [00:04<1:55:49,  4.64s/it]  0%|          | 2/1500 [00:09<1:59:41,  4.79s/it]  0%|          | 3/1500 [00:12<1:34:53,  3.80s/it]  0%|          | 4/1500 [00:14<1:22:25,  3.31s/it]  0%|          | 5/1500 [00:17<1:15:40,  3.04s/it]                                                    0%|          | 5/1500 [00:17<1:15:40,  3.04s/it]  0%|          | 6/1500 [00:20<1:13:40,  2.96s/it]  0%|          | 7/1500 [00:23<1:15:35,  3.04s/it]  1%|          | 8/1500 [00:25<1:12:49,  2.93s/it]  1%|          | 9/1500 [00:28<1:10:45,  2.85s/it]  1%|          | 10/1500 [00:31<1:08:35,  2.76s/it]                                                     1%|          | 10/1500 [00:31<1:08:35,  2.76s/it]  1%|          | 11/1500 [00:33<1:07:36,  2.72s/it]  1%|          | 12/1500 [00:36<1:06:13,  2.67s/it]  1%|          | 13/1500 [00:38<1:04:57,  2.62s/it]  1%|          | 14/1500 [00:41<1:04:27,  2.60s/it]  1%|          | 15/1500 [00:44<1:04:50,  2.62s/it]                                                     1%|          | 15/1500 [00:44<1:04:50,  2.62s/it]  1%|          | 16/1500 [00:46<1:05:12,  2.64s/it]  1%|          | 17/1500 [00:49<1:03:55,  2.59s/it]  1%|          | 18/1500 [00:52<1:06:11,  2.68s/it]  1%|▏         | 19/1500 [00:55<1:09:11,  2.80s/it]  1%|▏         | 20/1500 [00:57<1:08:04,  2.76s/it]                                                     1%|▏         | 20/1500 [00:57<1:08:04,  2.76s/it]***** Running Evaluation *****
+  Num examples = 100
+  Batch size = 2
+The following columns in the evaluation set don't have a corresponding argument in `T5ForConditionalGeneration.forward` and have been ignored: article_id, comment_id. If article_id, comment_id are not expected by `T5ForConditionalGeneration.forward`,  you can safely ignore this message.
+
+  0%|          | 0/13 [00:00<?, ?it/s][A
+ 15%|█▌        | 2/13 [00:01<00:05,  1.83it/s][A
+ 23%|██▎       | 3/13 [00:01<00:05,  1.94it/s][A
+ 31%|███       | 4/13 [00:01<00:04,  2.08it/s][A
+ 38%|███▊      | 5/13 [00:02<00:03,  2.11it/s][A
+ 46%|████▌     | 6/13 [00:02<00:03,  2.08it/s][A
+ 54%|█████▍    | 7/13 [00:03<00:02,  2.17it/s][A
+ 62%|██████▏   | 8/13 [00:03<00:02,  2.22it/s][A
+ 69%|██████▉   | 9/13 [00:04<00:01,  2.28it/s][A
+ 77%|███████▋  | 10/13 [00:04<00:01,  2.19it/s][A
+ 85%|████████▍ | 11/13 [00:05<00:00,  2.23it/s][A
+ 92%|█████████▏| 12/13 [00:05<00:00,  2.23it/s][A
+100%|██████████| 13/13 [00:06<00:00,  2.27it/s][A                                                   
+                                               [A  1%|▏         | 20/1500 [01:05<1:08:04,  2.76s/it]
+100%|██████████| 13/13 [00:06<00:00,  2.27it/s][A
+                                               [A  1%|▏         | 21/1500 [01:08<2:02:49,  4.98s/it]  1%|▏         | 22/1500 [01:10<1:45:42,  4.29s/it]  2%|▏         | 23/1500 [01:13<1:33:33,  3.80s/it]  2%|▏         | 24/1500 [01:16<1:24:53,  3.45s/it]  2%|▏         | 25/1500 [01:18<1:18:49,  3.21s/it]                                                     2%|▏         | 25/1500 [01:18<1:18:49,  3.21s/it]  2%|▏         | 26/1500 [01:21<1:15:36,  3.08s/it]  2%|▏         | 27/1500 [01:24<1:15:06,  3.06s/it]  2%|▏         | 28/1500 [01:27<1:14:45,  3.05s/it]  2%|▏         | 29/1500 [01:30<1:15:48,  3.09s/it]  2%|▏         | 30/1500 [01:33<1:12:12,  2.95s/it]                                                     2%|▏         | 30/1500 [01:33<1:12:12,  2.95s/it]  2%|▏         | 31/1500 [01:36<1:10:26,  2.88s/it]  2%|▏         | 32/1500 [01:38<1:07:39,  2.77s/it]  2%|▏         | 33/1500 [01:41<1:06:12,  2.71s/it]  2%|▏         | 34/1500 [01:43<1:05:00,  2.66s/it]  2%|▏         | 35/1500 [01:46<1:04:01,  2.62s/it]                                                     2%|▏         | 35/1500 [01:46<1:04:01,  2.62s/it]  2%|▏         | 36/1500 [01:48<1:03:31,  2.60s/it]  2%|▏         | 37/1500 [01:51<1:02:55,  2.58s/it]  3%|▎         | 38/1500 [01:53<1:01:55,  2.54s/it]  3%|▎         | 39/1500 [01:56<1:05:27,  2.69s/it]  3%|▎         | 40/1500 [01:59<1:08:19,  2.81s/it]                                                     3%|▎         | 40/1500 [01:59<1:08:19,  2.81s/it]***** Running Evaluation *****
+  Num examples = 100
+  Batch size = 2
+The following columns in the evaluation set don't have a corresponding argument in `T5ForConditionalGeneration.forward` and have been ignored: article_id, comment_id. If article_id, comment_id are not expected by `T5ForConditionalGeneration.forward`,  you can safely ignore this message.
+
+  0%|          | 0/13 [00:00<?, ?it/s][A
+ 15%|█▌        | 2/13 [00:00<00:02,  4.56it/s][A
+ 23%|██▎       | 3/13 [00:00<00:03,  3.31it/s][A
+ 31%|███       | 4/13 [00:01<00:03,  2.72it/s][A
+ 38%|███▊      | 5/13 [00:01<00:03,  2.48it/s][A
+ 46%|████▌     | 6/13 [00:02<00:02,  2.36it/s][A
+ 54%|█████▍    | 7/13 [00:02<00:02,  2.35it/s][A
+ 62%|██████▏   | 8/13 [00:03<00:02,  2.35it/s][A
+ 69%|██████▉   | 9/13 [00:03<00:01,  2.33it/s][A
+ 77%|███████▋  | 10/13 [00:04<00:01,  2.28it/s][A
+ 85%|████████▍ | 11/13 [00:04<00:00,  2.22it/s][A
+ 92%|█████████▏| 12/13 [00:04<00:00,  2.23it/s][A
+100%|██████████| 13/13 [00:05<00:00,  2.16it/s][A                                                   
+                                               [A  3%|▎         | 40/1500 [02:05<1:08:19,  2.81s/it]
+100%|██████████| 13/13 [00:05<00:00,  2.16it/s][A
+                                               [A  3%|▎         | 41/1500 [02:08<1:49:49,  4.52s/it]  3%|▎         | 42/1500 [02:10<1:35:24,  3.93s/it]  3%|▎         | 43/1500 [02:13<1:25:14,  3.51s/it]  3%|▎         | 44/1500 [02:16<1:18:45,  3.25s/it]  3%|▎         | 45/1500 [02:18<1:13:03,  3.01s/it]                                                     3%|▎         | 45/1500 [02:18<1:13:03,  3.01s/it]  3%|▎         | 46/1500 [02:21<1:10:10,  2.90s/it]  3%|▎         | 47/1500 [02:23<1:08:02,  2.81s/it]  3%|▎         | 48/1500 [02:26<1:07:06,  2.77s/it]  3%|▎         | 49/1500 [02:29<1:09:15,  2.86s/it]  3%|▎         | 50/1500 [02:32<1:06:44,  2.76s/it]                                                     3%|▎         | 50/1500 [02:32<1:06:44,  2.76s/it]  3%|▎         | 51/1500 [02:34<1:05:03,  2.69s/it]  3%|▎         | 52/1500 [02:37<1:04:33,  2.68s/it]  4%|▎         | 53/1500 [02:39<1:04:26,  2.67s/it]  4%|▎         | 54/1500 [02:42<1:04:00,  2.66s/it]  4%|▎         | 55/1500 [02:45<1:03:37,  2.64s/it]                                                     4%|▎         | 55/1500 [02:45<1:03:37,  2.64s/it]  4%|▎         | 56/1500 [02:47<1:03:13,  2.63s/it]  4%|▍         | 57/1500 [02:50<1:03:08,  2.63s/it]  4%|▍         | 58/1500 [02:52<1:02:49,  2.61s/it]  4%|▍         | 59/1500 [02:55<1:02:33,  2.60s/it]  4%|▍         | 60/1500 [02:58<1:02:59,  2.62s/it]                                                     4%|▍         | 60/1500 [02:58<1:02:59,  2.62s/it]***** Running Evaluation *****
+  Num examples = 100
+  Batch size = 2
+The following columns in the evaluation set don't have a corresponding argument in `T5ForConditionalGeneration.forward` and have been ignored: article_id, comment_id. If article_id, comment_id are not expected by `T5ForConditionalGeneration.forward`,  you can safely ignore this message.
+
+  0%|          | 0/13 [00:00<?, ?it/s][A
+ 15%|█▌        | 2/13 [00:00<00:02,  4.42it/s][A
+ 23%|██▎       | 3/13 [00:00<00:03,  3.18it/s][A
+ 31%|███       | 4/13 [00:01<00:04,  2.00it/s][A
+ 38%|███▊      | 5/13 [00:02<00:04,  1.71it/s][A
+ 46%|████▌     | 6/13 [00:03<00:04,  1.73it/s][A
+ 54%|█████▍    | 7/13 [00:03<00:03,  1.85it/s][A
+ 62%|██████▏   | 8/13 [00:03<00:02,  1.95it/s][A
+ 69%|██████▉   | 9/13 [00:04<00:01,  2.04it/s][A
+ 77%|███████▋  | 10/13 [00:04<00:01,  2.11it/s][A
+ 85%|████████▍ | 11/13 [00:05<00:00,  2.13it/s][A
+ 92%|█████████▏| 12/13 [00:05<00:00,  2.16it/s][A
+100%|██████████| 13/13 [00:06<00:00,  2.18it/s][A                                                   
+                                               [A  4%|▍         | 60/1500 [03:04<1:02:59,  2.62s/it]
+100%|██████████| 13/13 [00:06<00:00,  2.18it/s][A
+                                               [A  4%|▍         | 61/1500 [03:07<1:50:55,  4.63s/it]  4%|▍         | 62/1500 [03:10<1:37:12,  4.06s/it]  4%|▍         | 63/1500 [03:12<1:26:59,  3.63s/it]  4%|▍         | 64/1500 [03:15<1:19:21,  3.32s/it]  4%|▍         | 65/1500 [03:18<1:14:46,  3.13s/it]                                                     4%|▍         | 65/1500 [03:18<1:14:46,  3.13s/it]  4%|▍         | 66/1500 [03:21<1:14:03,  3.10s/it]  4%|▍         | 67/1500 [03:23<1:10:53,  2.97s/it]  5%|▍         | 68/1500 [03:26<1:08:17,  2.86s/it]  5%|▍         | 69/1500 [03:29<1:06:45,  2.80s/it]  5%|▍         | 70/1500 [03:31<1:06:05,  2.77s/it]                                                     5%|▍         | 70/1500 [03:31<1:06:05,  2.77s/it]  5%|▍         | 71/1500 [03:34<1:08:27,  2.87s/it]  5%|▍         | 72/1500 [03:37<1:06:04,  2.78s/it]  5%|▍         | 73/1500 [03:39<1:04:22,  2.71s/it]  5%|▍         | 74/1500 [03:42<1:03:44,  2.68s/it]  5%|▌         | 75/1500 [03:45<1:03:28,  2.67s/it]                                                     5%|▌         | 75/1500 [03:45<1:03:28,  2.67s/it]  5%|▌         | 76/1500 [03:47<1:03:06,  2.66s/it]  5%|▌         | 77/1500 [03:50<1:02:02,  2.62s/it]  5%|▌         | 78/1500 [03:52<1:01:26,  2.59s/it]  5%|▌         | 79/1500 [03:55<1:01:24,  2.59s/it]  5%|▌         | 80/1500 [03:58<1:01:01,  2.58s/it]                                                     5%|▌         | 80/1500 [03:58<1:01:01,  2.58s/it]***** Running Evaluation *****
+  Num examples = 100
+  Batch size = 2
+The following columns in the evaluation set don't have a corresponding argument in `T5ForConditionalGeneration.forward` and have been ignored: article_id, comment_id. If article_id, comment_id are not expected by `T5ForConditionalGeneration.forward`,  you can safely ignore this message.
+
+  0%|          | 0/13 [00:00<?, ?it/s][A
+ 15%|█▌        | 2/13 [00:00<00:02,  4.85it/s][A
+ 23%|██▎       | 3/13 [00:00<00:03,  3.30it/s][A
+ 31%|███       | 4/13 [00:01<00:03,  2.77it/s][A
+ 38%|███▊      | 5/13 [00:01<00:03,  2.37it/s][A
+ 46%|████▌     | 6/13 [00:02<00:03,  2.21it/s][A
+ 54%|█████▍    | 7/13 [00:02<00:02,  2.08it/s][A
+ 62%|██████▏   | 8/13 [00:03<00:02,  1.94it/s][A
+ 69%|██████▉   | 9/13 [00:03<00:01,  2.05it/s][A
+ 77%|███████▋  | 10/13 [00:04<00:01,  2.13it/s][A
+ 85%|████████▍ | 11/13 [00:04<00:00,  2.15it/s][A
+ 92%|█████████▏| 12/13 [00:05<00:00,  2.04it/s][A
+100%|██████████| 13/13 [00:06<00:00,  1.59it/s][A                                                   
+                                               [A  5%|▌         | 80/1500 [04:04<1:01:01,  2.58s/it]
+100%|██████████| 13/13 [00:06<00:00,  1.59it/s][A
+                                               [A  5%|▌         | 81/1500 [04:07<1:51:04,  4.70s/it]  5%|▌         | 82/1500 [04:10<1:35:58,  4.06s/it]  6%|▌         | 83/1500 [04:12<1:24:57,  3.60s/it]  6%|▌         | 84/1500 [04:15<1:17:59,  3.30s/it]  6%|▌         | 85/1500 [04:18<1:13:14,  3.11s/it]                                                     6%|▌         | 85/1500 [04:18<1:13:14,  3.11s/it]  6%|▌         | 86/1500 [04:20<1:09:41,  2.96s/it]  6%|▌         | 87/1500 [04:23<1:07:22,  2.86s/it]  6%|▌         | 88/1500 [04:25<1:05:57,  2.80s/it]  6%|▌         | 89/1500 [04:28<1:03:53,  2.72s/it]  6%|▌         | 90/1500 [04:31<1:03:23,  2.70s/it]                                                     6%|▌         | 90/1500 [04:31<1:03:23,  2.70s/it]  6%|▌         | 91/1500 [04:34<1:04:56,  2.77s/it]  6%|▌         | 92/1500 [04:37<1:06:39,  2.84s/it]  6%|▌         | 93/1500 [04:39<1:05:58,  2.81s/it]  6%|▋         | 94/1500 [04:42<1:04:21,  2.75s/it]  6%|▋         | 95/1500 [04:44<1:02:35,  2.67s/it]                                                     6%|▋         | 95/1500 [04:44<1:02:35,  2.67s/it]  6%|▋         | 96/1500 [04:47<1:02:13,  2.66s/it]  6%|▋         | 97/1500 [04:50<1:01:31,  2.63s/it]  7%|▋         | 98/1500 [04:52<1:00:46,  2.60s/it]  7%|▋         | 99/1500 [04:55<1:00:35,  2.59s/it]  7%|▋         | 100/1500 [04:58<1:05:54,  2.82s/it]                                                      7%|▋         | 100/1500 [04:58<1:05:54,  2.82s/it]***** Running Evaluation *****
+  Num examples = 100
+  Batch size = 2
+The following columns in the evaluation set don't have a corresponding argument in `T5ForConditionalGeneration.forward` and have been ignored: article_id, comment_id. If article_id, comment_id are not expected by `T5ForConditionalGeneration.forward`,  you can safely ignore this message.
+
+  0%|          | 0/13 [00:00<?, ?it/s][A
+ 15%|█▌        | 2/13 [00:00<00:02,  4.68it/s][A
+ 23%|██▎       | 3/13 [00:00<00:03,  3.24it/s][A
+ 31%|███       | 4/13 [00:01<00:03,  2.75it/s][A
+ 38%|███▊      | 5/13 [00:01<00:03,  2.61it/s][A
+ 46%|████▌     | 6/13 [00:02<00:02,  2.50it/s][A
+ 54%|█████▍    | 7/13 [00:02<00:02,  2.39it/s][A
+ 62%|██████▏   | 8/13 [00:03<00:02,  2.33it/s][A
+ 69%|██████▉   | 9/13 [00:03<00:01,  2.32it/s][A
+ 77%|███████▋  | 10/13 [00:03<00:01,  2.28it/s][A
+ 85%|████████▍ | 11/13 [00:04<00:01,  1.91it/s][A
+ 92%|█████████▏| 12/13 [00:05<00:00,  1.80it/s][A
+100%|██████████| 13/13 [00:05<00:00,  1.78it/s][A                                                    
+                                               [A  7%|▋         | 100/1500 [05:05<1:05:54,  2.82s/it]
+100%|██████████| 13/13 [00:05<00:00,  1.78it/s][A
+                                               [A  7%|▋         | 101/1500 [05:08<1:52:43,  4.83s/it]  7%|▋         | 102/1500 [05:11<1:39:38,  4.28s/it]  7%|▋         | 103/1500 [05:13<1:28:11,  3.79s/it]  7%|▋         | 104/1500 [05:16<1:18:55,  3.39s/it]  7%|▋         | 105/1500 [05:18<1:12:28,  3.12s/it]                                                      7%|▋         | 105/1500 [05:18<1:12:28,  3.12s/it]  7%|▋         | 106/1500 [05:21<1:09:06,  2.97s/it]  7%|▋         | 107/1500 [05:23<1:05:40,  2.83s/it]  7%|▋         | 108/1500 [05:26<1:03:54,  2.75s/it]  7%|▋         | 109/1500 [05:28<1:02:27,  2.69s/it]  7%|▋         | 110/1500 [05:31<1:02:44,  2.71s/it]                                                      7%|▋         | 110/1500 [05:31<1:02:44,  2.71s/it]  7%|▋         | 111/1500 [05:34<1:02:39,  2.71s/it]  7%|▋         | 112/1500 [05:37<1:03:04,  2.73s/it]  8%|▊         | 113/1500 [05:40<1:03:52,  2.76s/it]  8%|▊         | 114/1500 [05:43<1:05:31,  2.84s/it]  8%|▊         | 115/1500 [05:45<1:03:58,  2.77s/it]                                                      8%|▊         | 115/1500 [05:45<1:03:58,  2.77s/it]  8%|▊         | 116/1500 [05:48<1:02:56,  2.73s/it]  8%|▊         | 117/1500 [05:50<1:01:39,  2.67s/it]  8%|▊         | 118/1500 [05:53<1:00:41,  2.64s/it]  8%|▊         | 119/1500 [05:55<59:54,  2.60s/it]    8%|▊         | 120/1500 [05:58<59:20,  2.58s/it]                                                    8%|▊         | 120/1500 [05:58<59:20,  2.58s/it]***** Running Evaluation *****
+  Num examples = 100
+  Batch size = 2
+The following columns in the evaluation set don't have a corresponding argument in `T5ForConditionalGeneration.forward` and have been ignored: article_id, comment_id. If article_id, comment_id are not expected by `T5ForConditionalGeneration.forward`,  you can safely ignore this message.
+
+  0%|          | 0/13 [00:00<?, ?it/s][A
+ 15%|█▌        | 2/13 [00:00<00:02,  4.89it/s][A
+ 23%|██▎       | 3/13 [00:00<00:03,  3.26it/s][A
+ 31%|███       | 4/13 [00:01<00:03,  2.77it/s][A
+ 38%|███▊      | 5/13 [00:01<00:03,  2.58it/s][A
+ 46%|████▌     | 6/13 [00:02<00:02,  2.44it/s][A
+ 54%|█████▍    | 7/13 [00:02<00:02,  2.37it/s][A
+ 62%|██████▏   | 8/13 [00:03<00:02,  2.33it/s][A
+ 69%|██████▉   | 9/13 [00:03<00:01,  2.32it/s][A
+ 77%|███████▋  | 10/13 [00:03<00:01,  2.30it/s][A
+ 85%|████████▍ | 11/13 [00:04<00:00,  2.30it/s][A
+ 92%|█████████▏| 12/13 [00:04<00:00,  2.24it/s][A
+100%|██████████| 13/13 [00:05<00:00,  2.24it/s][A                                                  
+                                               [A  8%|▊         | 120/1500 [06:04<59:20,  2.58s/it]
+100%|██████████| 13/13 [00:05<00:00,  2.24it/s][A
+                                               [A  8%|▊         | 121/1500 [06:06<1:40:30,  4.37s/it]  8%|▊         | 122/1500 [06:09<1:29:33,  3.90s/it]  8%|▊         | 123/1500 [06:12<1:23:08,  3.62s/it]  8%|▊         | 124/1500 [06:15<1:17:48,  3.39s/it]  8%|▊         | 125/1500 [06:18<1:12:53,  3.18s/it]                                                      8%|▊         | 125/1500 [06:18<1:12:53,  3.18s/it]  8%|▊         | 126/1500 [06:20<1:09:20,  3.03s/it]  8%|▊         | 127/1500 [06:23<1:06:19,  2.90s/it]  9%|▊         | 128/1500 [06:26<1:03:38,  2.78s/it]  9%|▊         | 129/1500 [06:28<1:01:40,  2.70s/it]  9%|▊         | 130/1500 [06:31<1:00:00,  2.63s/it]                                                      9%|▊         | 130/1500 [06:31<1:00:00,  2.63s/it]  9%|▊         | 131/1500 [06:33<1:00:07,  2.64s/it]  9%|▉         | 132/1500 [06:36<59:57,  2.63s/it]    9%|▉         | 133/1500 [06:38<59:46,  2.62s/it]  9%|▉         | 134/1500 [06:41<1:01:03,  2.68s/it]  9%|▉         | 135/1500 [06:44<1:02:49,  2.76s/it]                                                      9%|▉         | 135/1500 [06:44<1:02:49,  2.76s/it]  9%|▉         | 136/1500 [06:47<1:03:02,  2.77s/it]  9%|▉         | 137/1500 [06:50<1:01:53,  2.72s/it]  9%|▉         | 138/1500 [06:53<1:03:33,  2.80s/it]  9%|▉         | 139/1500 [06:55<1:01:12,  2.70s/it]  9%|▉         | 140/1500 [06:58<1:00:17,  2.66s/it]                                                      9%|▉         | 140/1500 [06:58<1:00:17,  2.66s/it]***** Running Evaluation *****
+  Num examples = 100
+  Batch size = 2
+The following columns in the evaluation set don't have a corresponding argument in `T5ForConditionalGeneration.forward` and have been ignored: article_id, comment_id. If article_id, comment_id are not expected by `T5ForConditionalGeneration.forward`,  you can safely ignore this message.
+
+  0%|          | 0/13 [00:00<?, ?it/s][A
+ 15%|█▌        | 2/13 [00:00<00:02,  4.74it/s][A
+ 23%|██▎       | 3/13 [00:00<00:03,  3.21it/s][A
+ 31%|███       | 4/13 [00:01<00:03,  2.71it/s][A
+ 38%|███▊      | 5/13 [00:01<00:03,  2.57it/s][A
+ 46%|████▌     | 6/13 [00:02<00:02,  2.48it/s][A
+ 54%|█████▍    | 7/13 [00:02<00:02,  2.39it/s][A
+ 62%|██████▏   | 8/13 [00:03<00:02,  2.33it/s][A
+ 69%|██████▉   | 9/13 [00:03<00:01,  2.34it/s][A
+ 77%|███████▋  | 10/13 [00:03<00:01,  2.33it/s][A
+ 85%|████████▍ | 11/13 [00:04<00:00,  2.31it/s][A
+ 92%|█████████▏| 12/13 [00:04<00:00,  2.31it/s][A
+100%|██████████| 13/13 [00:05<00:00,  2.28it/s][A                                                    
+                                               [A  9%|▉         | 140/1500 [07:03<1:00:17,  2.66s/it]
+100%|██████████| 13/13 [00:05<00:00,  2.28it/s][A
+                                               [A  9%|▉         | 141/1500 [07:06<1:40:17,  4.43s/it]  9%|▉         | 142/1500 [07:09<1:28:11,  3.90s/it] 10%|▉         | 143/1500 [07:12<1:20:31,  3.56s/it] 10%|▉         | 144/1500 [07:14<1:13:29,  3.25s/it] 10%|▉         | 145/1500 [07:17<1:12:08,  3.19s/it]                                                     10%|▉         | 145/1500 [07:17<1:12:08,  3.19s/it] 10%|▉         | 146/1500 [07:20<1:08:13,  3.02s/it] 10%|▉         | 147/1500 [07:22<1:04:55,  2.88s/it] 10%|▉         | 148/1500 [07:25<1:02:45,  2.79s/it] 10%|▉         | 149/1500 [07:27<1:00:39,  2.69s/it] 10%|█         | 150/1500 [07:30<1:00:03,  2.67s/it]                                                     10%|█         | 150/1500 [07:30<1:00:03,  2.67s/it] 10%|█         | 151/1500 [07:33<1:00:01,  2.67s/it] 10%|█         | 152/1500 [07:35<59:22,  2.64s/it]   10%|█         | 153/1500 [07:38<58:36,  2.61s/it] 10%|█         | 154/1500 [07:40<58:28,  2.61s/it] 10%|█         | 155/1500 [07:43<59:37,  2.66s/it]                                                   10%|█         | 155/1500 [07:43<59:37,  2.66s/it] 10%|█         | 156/1500 [07:46<59:45,  2.67s/it] 10%|█         | 157/1500 [07:49<1:02:03,  2.77s/it] 11%|█         | 158/1500 [07:51<1:00:21,  2.70s/it] 11%|█         | 159/1500 [07:54<59:54,  2.68s/it]   11%|█         | 160/1500 [07:57<58:39,  2.63s/it]                                                   11%|█         | 160/1500 [07:57<58:39,  2.63s/it]***** Running Evaluation *****
+  Num examples = 100
+  Batch size = 2
+The following columns in the evaluation set don't have a corresponding argument in `T5ForConditionalGeneration.forward` and have been ignored: article_id, comment_id. If article_id, comment_id are not expected by `T5ForConditionalGeneration.forward`,  you can safely ignore this message.
+
+  0%|          | 0/13 [00:00<?, ?it/s][A
+ 15%|█▌        | 2/13 [00:00<00:02,  4.90it/s][A
+ 23%|██▎       | 3/13 [00:00<00:03,  3.33it/s][A
+ 31%|███       | 4/13 [00:01<00:03,  2.76it/s][A
+ 38%|███▊      | 5/13 [00:01<00:03,  2.57it/s][A
+ 46%|████▌     | 6/13 [00:02<00:02,  2.47it/s][A
+ 54%|█████▍    | 7/13 [00:02<00:02,  2.41it/s][A
+ 62%|██████▏   | 8/13 [00:03<00:02,  2.32it/s][A
+ 69%|██████▉   | 9/13 [00:03<00:01,  2.25it/s][A
+ 77%|███████▋  | 10/13 [00:04<00:01,  2.19it/s][A
+ 85%|████████▍ | 11/13 [00:04<00:00,  2.19it/s][A
+ 92%|█████████▏| 12/13 [00:04<00:00,  2.25it/s][A
+100%|██████████| 13/13 [00:05<00:00,  2.21it/s][A                                                  
+                                               [A 11%|█         | 160/1500 [08:03<58:39,  2.63s/it]
+100%|██████████| 13/13 [00:05<00:00,  2.21it/s][A
+                                               [A 11%|█         | 161/1500 [08:05<1:39:04,  4.44s/it] 11%|█         | 162/1500 [08:08<1:26:57,  3.90s/it] 11%|█         | 163/1500 [08:10<1:17:57,  3.50s/it] 11%|█         | 164/1500 [08:13<1:11:42,  3.22s/it] 11%|█         | 165/1500 [08:16<1:08:03,  3.06s/it]                                                     11%|█         | 165/1500 [08:16<1:08:03,  3.06s/it] 11%|█         | 166/1500 [08:18<1:05:20,  2.94s/it] 11%|█         | 167/1500 [08:21<1:06:39,  3.00s/it] 11%|█         | 168/1500 [08:24<1:04:23,  2.90s/it] 11%|█▏        | 169/1500 [08:27<1:02:11,  2.80s/it] 11%|█▏        | 170/1500 [08:29<1:00:49,  2.74s/it]                                                     11%|█▏        | 170/1500 [08:29<1:00:49,  2.74s/it] 11%|█▏        | 171/1500 [08:32<1:00:32,  2.73s/it] 11%|█▏        | 172/1500 [08:35<59:51,  2.70s/it]   12%|█▏        | 173/1500 [08:38<1:02:11,  2.81s/it] 12%|█▏        | 174/1500 [08:40<1:01:37,  2.79s/it] 12%|█▏        | 175/1500 [08:43<1:00:23,  2.73s/it]                                                     12%|█▏        | 175/1500 [08:43<1:00:23,  2.73s/it] 12%|█▏        | 176/1500 [08:46<1:01:24,  2.78s/it] 12%|█▏        | 177/1500 [08:49<1:00:34,  2.75s/it] 12%|█▏        | 178/1500 [08:52<1:01:55,  2.81s/it] 12%|█▏        | 179/1500 [08:54<1:01:35,  2.80s/it] 12%|█▏        | 180/1500 [08:57<1:00:32,  2.75s/it]                                                     12%|█▏        | 180/1500 [08:57<1:00:32,  2.75s/it]***** Running Evaluation *****
+  Num examples = 100
+  Batch size = 2
+The following columns in the evaluation set don't have a corresponding argument in `T5ForConditionalGeneration.forward` and have been ignored: article_id, comment_id. If article_id, comment_id are not expected by `T5ForConditionalGeneration.forward`,  you can safely ignore this message.
+
+  0%|          | 0/13 [00:00<?, ?it/s][A
+ 15%|█▌        | 2/13 [00:00<00:02,  4.65it/s][A
+ 23%|██▎       | 3/13 [00:00<00:03,  3.12it/s][A
+ 31%|███       | 4/13 [00:01<00:03,  2.72it/s][A
+ 38%|███▊      | 5/13 [00:01<00:03,  2.49it/s][A
+ 46%|████▌     | 6/13 [00:02<00:02,  2.39it/s][A
+ 54%|█████▍    | 7/13 [00:02<00:02,  2.31it/s][A
+ 62%|██████▏   | 8/13 [00:03<00:02,  2.26it/s][A
+ 69%|██████▉   | 9/13 [00:03<00:01,  2.27it/s][A
+ 77%|███████▋  | 10/13 [00:04<00:01,  2.30it/s][A
+ 85%|████████▍ | 11/13 [00:04<00:00,  2.31it/s][A
+ 92%|█████████▏| 12/13 [00:04<00:00,  2.21it/s][A
+100%|██████████| 13/13 [00:05<00:00,  2.19it/s][A                                                    
+                                               [A 12%|█▏        | 180/1500 [09:03<1:00:32,  2.75s/it]
+100%|██████████| 13/13 [00:05<00:00,  2.19it/s][A
+                                               [A 12%|█▏        | 181/1500 [09:06<1:39:15,  4.51s/it] 12%|█▏        | 182/1500 [09:08<1:26:53,  3.96s/it] 12%|█▏        | 183/1500 [09:11<1:18:15,  3.57s/it] 12%|█▏        | 184/1500 [09:13<1:11:18,  3.25s/it] 12%|█▏        | 185/1500 [09:16<1:06:59,  3.06s/it]                                                     12%|█▏        | 185/1500 [09:16<1:06:59,  3.06s/it] 12%|█▏        | 186/1500 [09:19<1:05:13,  2.98s/it] 12%|█▏        | 187/1500 [09:22<1:03:23,  2.90s/it] 13%|█▎        | 188/1500 [09:25<1:04:01,  2.93s/it] 13%|█▎        | 189/1500 [09:27<1:01:53,  2.83s/it] 13%|█▎        | 190/1500 [09:30<1:00:38,  2.78s/it]                                                     13%|█▎        | 190/1500 [09:30<1:00:38,  2.78s/it] 13%|█▎        | 191/1500 [09:33<1:00:13,  2.76s/it] 13%|█▎        | 192/1500 [09:35<58:51,  2.70s/it]   13%|█▎        | 193/1500 [09:38<58:38,  2.69s/it] 13%|█▎        | 194/1500 [09:40<58:25,  2.68s/it] 13%|█▎        | 195/1500 [09:43<58:25,  2.69s/it]                                                   13%|█▎        | 195/1500 [09:43<58:25,  2.69s/it] 13%|█▎        | 196/1500 [09:46<58:49,  2.71s/it] 13%|█▎        | 197/1500 [09:49<59:59,  2.76s/it] 13%|█▎        | 198/1500 [09:51<58:51,  2.71s/it] 13%|█▎        | 199/1500 [09:54<57:08,  2.64s/it] 13%|█▎        | 200/1500 [09:57<1:02:15,  2.87s/it]                                                     13%|█▎        | 200/1500 [09:57<1:02:15,  2.87s/it]***** Running Evaluation *****
+  Num examples = 100
+  Batch size = 2
+The following columns in the evaluation set don't have a corresponding argument in `T5ForConditionalGeneration.forward` and have been ignored: article_id, comment_id. If article_id, comment_id are not expected by `T5ForConditionalGeneration.forward`,  you can safely ignore this message.
+
+  0%|          | 0/13 [00:00<?, ?it/s][A
+ 15%|█▌        | 2/13 [00:00<00:02,  3.87it/s][A
+ 23%|██▎       | 3/13 [00:00<00:03,  3.10it/s][A
+ 31%|███       | 4/13 [00:01<00:03,  2.72it/s][A
+ 38%|███▊      | 5/13 [00:01<00:03,  2.54it/s][A
+ 46%|████▌     | 6/13 [00:02<00:02,  2.46it/s][A
+ 54%|█████▍    | 7/13 [00:02<00:02,  2.36it/s][A
+ 62%|██████▏   | 8/13 [00:03<00:02,  2.32it/s][A
+ 69%|██████▉   | 9/13 [00:03<00:01,  2.27it/s][A
+ 77%|███████▋  | 10/13 [00:04<00:01,  2.28it/s][A
+ 85%|████████▍ | 11/13 [00:04<00:00,  2.24it/s][A
+ 92%|█████████▏| 12/13 [00:04<00:00,  2.28it/s][A
+100%|██████████| 13/13 [00:05<00:00,  2.26it/s][A                                                    
+                                               [A 13%|█▎        | 200/1500 [10:03<1:02:15,  2.87s/it]
+100%|██████████| 13/13 [00:05<00:00,  2.26it/s][A
+                                               [A 13%|█▎        | 201/1500 [10:06<1:38:43,  4.56s/it] 13%|█▎        | 202/1500 [10:08<1:25:32,  3.95s/it] 14%|█▎        | 203/1500 [10:11<1:16:42,  3.55s/it] 14%|█▎        | 204/1500 [10:13<1:10:09,  3.25s/it] 14%|█▎        | 205/1500 [10:16<1:05:32,  3.04s/it]                                                     14%|█▎        | 205/1500 [10:16<1:05:32,  3.04s/it] 14%|█▎        | 206/1500 [10:19<1:02:40,  2.91s/it] 14%|█▍        | 207/1500 [10:21<1:02:26,  2.90s/it] 14%|█▍        | 208/1500 [10:24<1:00:37,  2.82s/it] 14%|█▍        | 209/1500 [10:27<59:30,  2.77s/it]   14%|█▍        | 210/1500 [10:30<1:04:03,  2.98s/it]                                                     14%|█▍        | 210/1500 [10:30<1:04:03,  2.98s/it] 14%|█▍        | 211/1500 [10:33<1:03:21,  2.95s/it] 14%|█▍        | 212/1500 [10:36<1:01:17,  2.86s/it] 14%|█▍        | 213/1500 [10:38<59:55,  2.79s/it]   14%|█▍        | 214/1500 [10:41<58:18,  2.72s/it] 14%|█▍        | 215/1500 [10:44<57:26,  2.68s/it]                                                   14%|█▍        | 215/1500 [10:44<57:26,  2.68s/it] 14%|█▍        | 216/1500 [10:46<57:51,  2.70s/it] 14%|█▍        | 217/1500 [10:49<57:39,  2.70s/it] 15%|█▍        | 218/1500 [10:52<57:39,  2.70s/it] 15%|█▍        | 219/1500 [10:54<58:11,  2.73s/it] 15%|█▍        | 220/1500 [10:57<57:02,  2.67s/it]                                                   15%|█▍        | 220/1500 [10:57<57:02,  2.67s/it]***** Running Evaluation *****
+  Num examples = 100
+  Batch size = 2
+The following columns in the evaluation set don't have a corresponding argument in `T5ForConditionalGeneration.forward` and have been ignored: article_id, comment_id. If article_id, comment_id are not expected by `T5ForConditionalGeneration.forward`,  you can safely ignore this message.
+
+  0%|          | 0/13 [00:00<?, ?it/s][A
+ 15%|█▌        | 2/13 [00:00<00:03,  2.88it/s][A
+ 23%|██▎       | 3/13 [00:01<00:04,  2.03it/s][A
+ 31%|███       | 4/13 [00:02<00:05,  1.60it/s][A
+ 38%|███▊      | 5/13 [00:02<00:04,  1.78it/s][A
+ 46%|████▌     | 6/13 [00:03<00:03,  1.90it/s][A
+ 54%|█████▍    | 7/13 [00:03<00:02,  2.01it/s][A
+ 62%|██████▏   | 8/13 [00:04<00:02,  2.09it/s][A
+ 69%|██████▉   | 9/13 [00:04<00:01,  2.12it/s][A
+ 77%|███████▋  | 10/13 [00:04<00:01,  2.14it/s][A
+ 85%|████████▍ | 11/13 [00:05<00:00,  2.22it/s][A
+ 92%|█████████▏| 12/13 [00:05<00:00,  2.23it/s][A
+100%|██████████| 13/13 [00:06<00:00,  2.25it/s][A                                                  
+                                               [A 15%|█▍        | 220/1500 [11:04<57:02,  2.67s/it]
+100%|██████████| 13/13 [00:06<00:00,  2.25it/s][A
+                                               [A 15%|█▍        | 221/1500 [11:06<1:39:21,  4.66s/it] 15%|█▍        | 222/1500 [11:09<1:26:14,  4.05s/it] 15%|█▍        | 223/1500 [11:11<1:16:11,  3.58s/it] 15%|█▍        | 224/1500 [11:14<1:09:14,  3.26s/it] 15%|█▌        | 225/1500 [11:16<1:04:34,  3.04s/it]                                                     15%|█▌        | 225/1500 [11:16<1:04:34,  3.04s/it] 15%|█▌        | 226/1500 [11:19<1:02:33,  2.95s/it]
