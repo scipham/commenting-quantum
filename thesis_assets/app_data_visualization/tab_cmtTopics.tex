@@ -1,0 +1,37 @@
+
+
+\begin{table}[ht]
+\begin{adjustbox}{valign=center, max width=1.1\linewidth}
+\begin{tabular}{p{4cm}p{1.5cm}@{\hspace{20pt}}*{2}{c}@{\hspace{20pt}}*{2}{c}@{\hspace{20pt}}*{2}{c}}
+\toprule
+\textbf{Topic} &  \textbf{Support} & \multicolumn{6}{c}{\textbf{Tokens}}  \\
+\midrule
+1: Quantum   & 14317 & 0.046 & "quantum" & 0.022 & "state" & 0.022 & "particle" \\
+phenomena & & 0.016 & "information" & 0.015 & "photon" & 0.014 & "light" \\
+/ information & & 0.014 & "entanglement" & 0.013 & "time" & 0.010 & "way" \\
+		& & 0.010 & "measure" & 0.010 & "wave" & 0.009 & "know" \\
+		& & 0.009 & "communication" & 0.009 & "fast" &  0.008 & "qubit" \\
+\midrule
+2: General  & 84 & 0.026 & "article" & 0.020 & "read" & 0.018 & "year" \\
+		article responses  & & 0.016 & "think" & 0.016 & "go" & 0.014 & "know" \\
+		\& scientific research  & & 0.014 & "sound" & 0.013 & "run" & 0.013 & "understand" \\
+		   & & 0.012 & "science" & 0.013 & "cool" & 0.010 & "work" \\
+		 & & 0.008 & "word" & 0.008 & "s" & 0.007 & "title" \\
+\midrule
+3: Quantum & 35 & 0.087 & "quantum" & 0.053 & "computer" & 0.019 & "computing" \\
+		computing & & 0.011 & "know" & 0.010 & "world" & 0.010 & "internet" \\
+		 / technology  & & 0.010 & "need" & 0.009 & "encryption" & 0.009 & "use" \\
+		& & 0.009 & "problem" & 0.008 & "thing" & 0.008 & "technology" \\
+		& & 0.007 & "mean" & 0.007 & "time" & 0.006 & "work" \\
+\midrule
+4: Physics & 26 & 0.033 & "time" & 0.019 & "universe" & 0.014 & "space" \\
+		& & 0.013 & "theory" & 0.013 & "matter" & 0.012 & "energy" \\
+		& & 0.011 & "number" & 0.010 & "travel" & 0.009 & "thing" \\
+		& & 0.009 & "think"	& 0.009 & "real" & 0.009 & "mean" \\
+		& & 0.009 & "new" & 0.009 & "exist" & 0.009 & "dimension" \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\vspace{5pt}
+\caption{Topic modelling results of 4 topics for all collected Reddit comments. For each topic the number of associated comments and the top 15 tokens are given with their corresponding relevance score to the topic. Allowed token types were verbs, adverbs, subordinating conjunctions, nouns, proper nouns and non-categorized tokens. Topic names were manually chosen based on the top 30 tokens of each topic.}
+\end{table}

@@ -1,0 +1,40 @@
+
+
+\begin{prompt}[ht]
+\centering
+\begin{adjustbox}{center}
+\begin{tabular*}{1.0\textwidth}{|p{2.8cm} p{0.5cm} p{12cm}|}
+\hline
+\multicolumn{3}{|c|}{\cellcolor{headercolor}\textcolor{white}{\textbf{Comment generation}}} \\
+\hline
+\centering \textbf{System} & \multicolumn{2}{|c|}{ \parbox{12cm}{ \vspace{2ex} \texttt{You are a Reddit user who comments on posts that link to news articles or press releases.}
+\vspace{1em}
+}} \\ 
+\hhline{|~|-|-|} 
+ \centering \textbf{User} & \multicolumn{2}{|c|}{ \parbox{12cm}{ \vspace{2ex} \texttt{Write a comment for a post which links to a news article or press release with the following text:}
+\vspace{1em}}} \\
+\hhline{|~|-|-|} 
+\centering \textbf{User} & \multicolumn{2}{|c|}{         \parbox{12cm}{
+        \vspace{2ex} 
+        \texttt{[ARTICLE BODY TEXT]} \\
+        \hangindent=3em \textcolor{gray}{Example: \textit{ 
+For the first time, a quantum computer has solved a problem that can't be performed by a standard computer - at least not within a reasonable amount of time - Google announced October 23. ... They're paving new ground, and they're going where no one has gone before.}}
+        \vspace{1em}
+    }}
+ \\
+\hhline{===}
+\parbox[t]{2.8cm}{ \centering\textbf{Output} \\ \vspace{1ex}\footnotesize \texttt{temp.= 0.8} \\ \textit{max. tokens = 300} \\
+\textit{n = 32}
+\vspace{1em}
+} & \multicolumn{2}{|c|}{  \parbox{12cm}{  \vspace{2ex}
+        \texttt{[GENERATED COMMENT TEXT]} \\
+        \hangindent=3em \textcolor{gray}{Example: \textit{ 
+I'm not sure how I feel about the fact that Google is the company behind this breakthrough. It's a bit unsettling that a single corporation has so much power and influence. 
+    }}}} \\
+\hhline{---}
+\end{tabular*}
+\end{adjustbox}
+\vspace{3pt}
+\caption{Comment generation chat prompt. For Davinci-003 the prompts were concatenated, separated by a "\textbackslash{n} \#\#\# \textbackslash{n}" token and a response trigger "\#>" was appended.}
+\label{prompt:prompt_temp}
+\end{prompt}

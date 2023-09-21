@@ -1,0 +1,69 @@
+
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{c@{\hspace{20pt}}p{10cm}}
+\toprule
+\textbf{Keyword} & \textbf{Relevant Subreddits} \\
+\midrule
+ "technology" & "r/technology", "r/technews", "r/Futurology", \\ & "r/hardware", "r/gadgets",  \\  & "r/InformationTechnology",  "r/singularity", \\  &"r/CryptoCurrency", "r/Bitcoin",  "r/europe", \\  & "r/worldnews", "r/energy", "r/news", "r/space" \\
+\midrule
+ "science" & "r/science", "r/ScienceUncensored", \\  & "r/EverythingScience","r/PhilosophyofScience", \\  & "r/philosophy" ,"r/sciences","r/computerscience", \\  & "r/todayilearned", "r/skeptic" \\
+ \midrule
+ "physics" & "r/Physics", "r/QuantumPhysics", \\  & "r/TheoreticalPhysics", "r/math" \\
+ \midrule
+ "quantum" & "r/quantum", "r/QuantumComputing", \\  & "r/QuantumPhysics", "r/holofractal", \\  & "r/crypto" ,"r/compsci", "r/programming", \\  & "r/HighStrangeness" \\
+\bottomrule 
+\end{tabular}
+\vspace{5pt}
+\caption{List of pre-selected subreddits for hostname selection after filtering by criteria from table \ref{tab:exclcrit_subreddits}. The keywords indicate which query in the subreddit search on Reddit.com resulted in the corresponding subreddits. Queries were performed in order of the top to bottom row. Some subreddits were found for multiple search queries and are listed here only at their first occurrence.}
+\label{tab:selectedsubreddits}
+\end{table}
+
+\begin{table}
+\parbox{.45\linewidth}{
+\centering
+\begin{tabular}{lr}
+\hline
+ Subreddit Name   &   \% of Articles\\
+\hline
+ r/science        &                    33.17 \\
+ r/Futurology     &                    22.11 \\
+ r/technology     &                    14.07 \\
+ r/technews       &                     8.54 \\
+ r/worldnews      &                     6.53 \\
+ r/CryptoCurrency &                     5.53 \\
+ r/Physics        &                     3.02 \\
+ r/tech           &                     2.51 \\
+ r/space          &                     2.51 \\
+ r/gadgets        &                     2.01 \\
+\hline
+\end{tabular}
+\label{tab:top_subreddits_to_articles}
+\vspace{5pt}
+\caption{Top 10 subreddits in the collected Reddit data with respect to the number of articles}
+}
+\hfill
+\parbox{.45\linewidth}{
+\centering
+\begin{tabular}{lr}
+\hline
+ Subreddit Name   &  \% of Comments \\
+\hline
+ r/science        &                    34.69 \\
+ r/Futurology     &                    22.13 \\
+ r/technology     &                    11.23 \\
+ r/technews       &                    10.04 \\
+ r/worldnews      &                     8.92 \\
+ r/gadgets        &                     3.49 \\
+ r/CryptoCurrency &                     2.73 \\
+ r/space          &                     2.51 \\
+ r/tech           &                     2.41 \\
+ r/Physics        &                     1.86 \\
+\hline
+\end{tabular}
+\label{tab:top_subreddits_to_tldcomments}
+ \vspace{5pt}
+\caption{Top 10 subreddits in the collected Reddit data with respect to the total number of top-level comments}
+}
+\end{table}

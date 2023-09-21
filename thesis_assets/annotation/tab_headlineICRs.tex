@@ -1,0 +1,27 @@
+
+%\renewcommand{\arraystretch}{1.5}
+\begin{table}
+    \centering
+    \begin{tabular}{lccc}
+        \toprule
+        & \multicolumn{1}{p{4cm}}{\centering Prompt excluding criteria}
+        & \multicolumn{1}{p{4cm}}{\centering Prompt including criteria} \\
+        \midrule
+        \texttt{T} $= 0.5$ & 0.56 (75.21 \%)
+        & 0.68 (81.82 \%)
+        \\
+        \texttt{T} $= 1.0$ & 0.55 (74.79 \%)
+        & 0.66 (80.99 \%)
+        \\
+        \texttt{T} $= 1.2$ & 0.54 (74.38 \%)
+        & 0.67 (81.51 \%)
+        \\
+        \bottomrule
+    \end{tabular}
+    \vspace{1em}
+    \caption{Cohen's kappa and percent agreement (in parentheses) for article headline sentiment towards QS\&T across different configurations of the prompt and the temperature hyperparameter. The prompt without detailed annotation criteria still included a brief definition of the annotation feature. Agreements were taken between the GPT-4 majority votes and human labels. }
+    \label{tab:headline_ICRs}
+\end{table}
+
+%\renewcommand{\arraystretch}{1.0}
+

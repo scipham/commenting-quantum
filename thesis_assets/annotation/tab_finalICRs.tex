@@ -1,0 +1,48 @@
+
+%\renewcommand{\arraystretch}{1.5}
+\begin{table}
+    \centering
+     \begin{subtable}[c]{\textwidth}
+     \centering
+    \begin{tabular}{ccc}
+        \toprule
+        & \multicolumn{1}{p{4cm}}{\centering\textbf{Pilot} \\ (50 + 25 Comments)} & \multicolumn{1}{p{4cm}}{\centering\textbf{Actual dataset} \\ (15 \% of 4920 Comments)} \\
+        \midrule
+         \textbf{Human vs. GPT4} (Average) & 0.65 (83.2 \%)
+& 0.76 (89.4 \%)
+ \\
+          \textbf{GPT4 vs. GPT4} (Pair average) & 0.83 (92.2 \%)
+& 0.87 (94.3 \%)
+ \\
+         \textbf{Human vs. GPT4} (Majority vote) & 0.66 (83.8 \%)
+& 0.82 (91.7 \%)
+ \\
+        \bottomrule
+    \end{tabular}
+    \vspace{1ex}
+\caption{Engagement}
+    \vspace{0.4cm}
+    \begin{tabular}{ccc}
+        \toprule
+        & \multicolumn{1}{p{4cm}}{\centering\textbf{Pilot} \\ (50 + 25 Comments)} & \multicolumn{1}{p{4cm}}{\centering\textbf{Actual dataset} \\ (15 \% of 4920 Comments)} \\
+        \midrule
+         \textbf{Human vs. GPT4} (Average) & 0.59 (81.7 \%)
+& 0.74 (86.8 \%)
+ \\
+          \textbf{GPT4 vs. GPT4} (Pair average) & 0.88 (94.0 \%)
+&  0.85 (91.7 \%)
+ \\
+         \textbf{Human vs. GPT4} (Majority vote) & 0.60 (82.4 \%)
+ & 0.82 (90.9 \%)
+\\
+        \bottomrule
+    \end{tabular}
+    \vspace{1ex}
+\caption{Sentiment}
+     \end{subtable}
+    \vspace{1em}
+    \caption{Cohen Kappa and percent agreement (in parentheses) for the GPT-4 based annotations. The first row of each table gives the average agreement between the human and each of the eight GPT-4 labels. The middle rows give the average agreement metrics between all pairs of GPT-4 instances, excluding the human. The last rows show the agreement between human labels and the majority vote of all eight GPT-4 responses.}
+    \label{tab:annot_finalICRs}
+\end{table}
+%\renewcommand{\arraystretch}{1.0}
+

@@ -1,0 +1,45 @@
+
+
+\begin{prompt}[ht]
+\centering
+\begin{adjustbox}{center}
+\begin{tabular*}{1.25\textwidth}{|p{2.8cm}|p{0.5cm}@{\hspace{0.5cm}}p{14cm}|}
+\hline
+\multicolumn{3}{|c|}{\cellcolor{headercolor}\textcolor{white}{\textbf{Comment annotation}}} \\
+\hline
+\multirow{4}{*}[5pt]{\parbox[t]{2.8cm}{ \footnotesize\texttt{temp.= 1.0} \\ \textit{max. tokens = 800} \\
+\textit{n = 8}
+}} & \centering  \rotatebox[origin=c]{90}{ \centering \textbf{System} \;\;\;\; } & \texttt{You are an annotator. Your task is to annotate a given set of Reddit comments on [engagement | sentiment] towards quantum science \& technology. Your goal is to strictly follow the given set of annotation criteria for assessing whether a comment indicates an [active/passive | positive/negative/neutral] [engagement | sentiment] towards quantum science \& technology. Focus on understanding the criteria and applying them carefully to each comment independently.} \\ 
+\hhline{|~|-|-|} 
+& \centering \rotatebox[origin=c]{90}{\textbf{User} \;\;\;\;} & \texttt{Throughout the annotation criteria, "quantum science \& technology" encompasses not only the factual content of quantum theory but also the context, presentation, discussion, and interpretation of research practice on the topic. It also includes topic-related concepts or findings.} \\
+\hhline{|~|-|-|} 
+& \centering \rotatebox[origin=c]{90}{\textbf{User}} &     \parbox{10cm}{
+        \vspace{1ex} % adds vertical space
+        \texttt{[ANNOTATION CRITERIA: see Appendix \ref{chap:app_annot_crit}]} \\
+        \hangindent=3em \textcolor{gray}{Example: \\
+        \textit{Active: \textbackslash{n}\textbackslash{t}- The comment asks questions or seeks clarification, information or understanding about quantum science \& technology. \textbackslash{n}\textbackslash{t}- ...}}
+        \\
+    }
+    \\ 
+\hhline{|~|-|-|} 
+& \centering \rotatebox[origin=c]{90}{\textbf{User} } &     \parbox{10cm}{
+        \vspace{1ex} % adds vertical space
+        \texttt{Here are the Reddit comments for annotation: \textbackslash{n} <\#1\#> [COMMENT 1 TEXT] \textbackslash{n}\textbackslash{n} <\#2\#> [COMMENT 2 TEXT]  \textbackslash{n}\textbackslash{n} ... <\#25\#> [COMMENT 25 TEXT] }
+        \\
+    }
+    \\
+    \hhline{|~|-|-|} 
+& \centering \rotatebox[origin=c]{90}{\textbf{User} \;\;\;\;} & \texttt{Now, using the provided criteria, classify each comment independently as [active or passive | positive or negative or neutral] towards quantum science \& technology. Only respond in the format "<\#i\#> [engagement | sentiment];". Never justify your responses.} \\
+\hhline{===}
+\multicolumn{3}{|c|}{\parbox{10cm}{
+        \vspace{2ex} % adds vertical space
+        \texttt{<\#1\#> [ANNOTATION COMMENT 1]; <\#2\#> [ANNOTATION COMMENT 2]; ... <\#25\#> [ANNOTATION COMMENT 25];}
+        \\
+    }} \\
+\hhline{---}
+\end{tabular*}
+\end{adjustbox}
+\vspace{3pt}
+\caption{Comment annotation chat prompt. We prompt separately for engagement \& sentiment towards QS\&T. "[X]" is a descriptive, open placeholder. In contrast, "[X | Y]" means "insert here either string X or string Y". Here the chosen batch size was 25.}
+\label{prompt:prompt_temp}
+\end{prompt}

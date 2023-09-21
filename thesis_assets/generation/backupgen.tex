@@ -1,0 +1,38 @@
+
+
+\begin{prompt}[ht]
+\centering
+\begin{adjustbox}{center}
+\begin{tabular*}{1.22\textwidth}{|p{2.8cm}|p{2.0cm}@{\hspace{1.0cm}}p{10cm}|}
+\hline
+\multicolumn{3}{|c|}{\cellcolor{headercolor}\textcolor{white}{\textbf{Comment generation}}} \\
+\hline
+\multirow{4}{*}[5pt]{\parbox[t]{2.8cm}{ \footnotesize\texttt{temp.= 0.8} \\ \textit{max. tokens = 300} \\
+\textit{n = 32}
+}} & \centering \textbf{System} & \texttt{You are a Reddit user who comments on posts that link to news articles or press releases.} \\ 
+\hhline{|~|-|-|} 
+& \centering\textbf{User} & \texttt{Write a comment for a post which links to a news article or press release with the following text:} \\
+\hhline{|~|-|-|} 
+& \centering\textbf{User} &     \parbox{10cm}{
+        \vspace{1ex} % adds vertical space
+        \texttt{[ARTICLE BODY TEXT]} \\
+        \hangindent=3em \textcolor{gray}{Example: \textit{ 
+For the first time, a quantum computer has solved a problem that can't be performed by a standard computer - at least not within a reasonable amount of time - Google announced October 23. ... They're paving new ground, and they're going where no one has gone before.}}
+        \\
+    }
+    \\
+\hhline{===}
+\multicolumn{3}{|c|}{\parbox{10cm}{
+        \vspace{1ex} % adds vertical space
+        \texttt{[GENERATED COMMENT TEXT]} \\
+        \hangindent=3em \textcolor{gray}{Example: \textit{ 
+I'm not sure how I feel about the fact that Google is the company behind this breakthrough. It's a bit unsettling that a single corporation has so much power and influence. }}
+        \\
+    }} \\
+\hline 
+\end{tabular*}
+\end{adjustbox}
+\vspace{3pt}
+\caption{Comment generation chat prompt. For Davinci-003 the prompts were concatenated, separated by a "\textbackslash{n} \#\#\# \textbackslash{n}" token and a response trigger "\#>" was appended.}
+\label{prompt:prompt_temp}
+\end{prompt}

@@ -1,0 +1,37 @@
+
+
+\begin{table}[ht]
+\begin{adjustbox}{valign=center, max width=1.1\linewidth}
+\begin{tabular}{p{4cm}p{1.5cm}@{\hspace{20pt}}*{2}{c}@{\hspace{20pt}}*{2}{c}@{\hspace{20pt}}*{2}{c}}
+\toprule
+\textbf{Topic} &  \textbf{Support} & \multicolumn{6}{c}{\textbf{Tokens}}  \\
+\midrule
+1: Quantum   & 148 & 0.017 & "ibm" & 0.014 & "google" & 0.012 & "problem" \\
+		 Computing & & 0.012 & "classical" & 0.012 & "processor" & 0.011 & "year" \\
+		& & 0.010 & "chip" & 0.009 & "company" & 0.009 & "algorithm" \\
+		& & 0.008 & "machine" & 0.006 & "solve" & 0.005 & "build" \\
+		& & 0.004 & "number" & 0.003 & "need" & 0.003 & "supremacy" \\
+\midrule
+2: Quantum  & 166 & 0.022 & "network" & 0.016 & "photon" & 0.015 & "distance" \\
+		 communication & & 0.014 & "entanglement" & 0.013 & "communication" & 0.012 & "teleportation" \\
+		/ information & & 0.012 & "internet" & 0.011 & "wave" & 0.009 & "node" \\
+		& & 0.008 & "d" & 0.008 & "fiber" & 0.007 & "long" \\
+		& & 0.008 & "send" & 0.008 & "key" & 0.007 & "particle" \\
+\midrule
+3: Quantum   & 72 & 0.022 & "photon" & 0.014 & "particle" & 0.012 & "experiment" \\
+		theory & & 0.011 & "crystal" & 0.010 & "physicist" & 0.009 & "theory" \\
+		/ phenomena & & 0.009 & "measurement" & 0.008 & "light" & 0.007 & "mechanic" \\
+		& & 0.007 & "measure" & 0.007 & "space" & 0.006 & "universe" \\
+		& & 0.006 & "find" & 0.005 & "object" & 0.005 & "physics" \\
+\midrule
+4: Atomic   & 48 & 0.017 & "atom" & 0.011 & "energy" & 0.011 & "electron" \\ 
+		physics & & 0.010 & "light" & 0.009 & "field" & 0.008 & "temperature" \\
+		\& Quantum & & 0.008 & "material" & 0.008 & "spin" & 0.007 & "magnetic" \\
+		 Matter & & 0.007 & "study" & 0.007 & "lead" & 0.006 & "physics" \\
+		& & 0.005 & "create" & 0.005 & "physicist" & 0.005 & "laser" \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\vspace{5pt}
+\caption{Topic modelling results of 4 topics for the collected article bodies. For each topic the number of associated articles and the top 15 tokens are given with their corresponding relevance score to the topic. Allowed token types were verbs, adverbs, subordinating conjunctions, nouns, proper nouns and non-categorized tokens. Topic names were manually chosen based on the top 30 tokens of each topic.}
+\end{table}
