@@ -1,76 +1,0 @@
-wandb: Currently logged in as: thomas-rothe (rothe). Use `wandb login --relogin` to force relogin
-wandb: Currently logged in as: thomas-rothe (rothe). Use `wandb login --relogin` to force relogin
-wandb: Currently logged in as: thomas-rothe (rothe). Use `wandb login --relogin` to force relogin
-wandb: Currently logged in as: thomas-rothe (rothe). Use `wandb login --relogin` to force relogin
-wandb: wandb version 0.13.11 is available!  To upgrade, please run:
-wandb:  $ pip install wandb --upgrade
-wandb: Tracking run with wandb version 0.13.10
-wandb: Run data is saved locally in /data1/s1930443/wandb/wandb/run-20230312_180313-9s3zt3h3
-wandb: Run `wandb offline` to turn off syncing.
-wandb: wandb version 0.13.11 is available!  To upgrade, please run:
-wandb:  $ pip install wandb --upgrade
-wandb: Tracking run with wandb version 0.13.10
-wandb: Run data is saved locally in /data1/s1930443/wandb/wandb/run-20230312_180313-qbfcbqt2
-wandb: Run `wandb offline` to turn off syncing.
-wandb: wandb version 0.13.11 is available!  To upgrade, please run:
-wandb:  $ pip install wandb --upgrade
-wandb: Tracking run with wandb version 0.13.10
-wandb: Run data is saved locally in /data1/s1930443/wandb/wandb/run-20230312_180313-kbkato83
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run solar-deluge-14
-wandb: ⭐️ View project at https://wandb.ai/rothe/t5-deepspeed-alice-initial-test
-wandb: 🚀 View run at https://wandb.ai/rothe/t5-deepspeed-alice-initial-test/runs/9s3zt3h3
-wandb: Syncing run different-valley-15
-wandb: ⭐️ View project at https://wandb.ai/rothe/t5-deepspeed-alice-initial-test
-wandb: 🚀 View run at https://wandb.ai/rothe/t5-deepspeed-alice-initial-test/runs/kbkato83
-wandb: Syncing run breezy-wood-13
-wandb: ⭐️ View project at https://wandb.ai/rothe/t5-deepspeed-alice-initial-test
-wandb: 🚀 View run at https://wandb.ai/rothe/t5-deepspeed-alice-initial-test/runs/qbfcbqt2
-wandb: wandb version 0.13.11 is available!  To upgrade, please run:
-wandb:  $ pip install wandb --upgrade
-wandb: Tracking run with wandb version 0.13.10
-wandb: Run data is saved locally in /data1/s1930443/wandb/wandb/run-20230312_180313-vlg61q9q
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run snowy-fire-15
-wandb: ⭐️ View project at https://wandb.ai/rothe/t5-deepspeed-alice-initial-test
-wandb: 🚀 View run at https://wandb.ai/rothe/t5-deepspeed-alice-initial-test/runs/vlg61q9q
-Traceback (most recent call last):
-  File "/home/s1930443/MRP1/t5_deepspeed_initial.py", line 167, in <module>
-    main(**script_kwargs)
-  File "/home/s1930443/MRP1/t5_deepspeed_initial.py", line 122, in main
-    train_dataset=train_dataset,
-NameError: name 'train_dataset' is not defined
-wandb: Waiting for W&B process to finish... (failed 1). Press Control-C to abort syncing.
-Traceback (most recent call last):
-Traceback (most recent call last):
-  File "/home/s1930443/MRP1/t5_deepspeed_initial.py", line 167, in <module>
-    main(**script_kwargs)
-  File "/home/s1930443/MRP1/t5_deepspeed_initial.py", line 122, in main
-    train_dataset=train_dataset,
-NameError: name 'train_dataset' is not defined
-Traceback (most recent call last):
-  File "/home/s1930443/MRP1/t5_deepspeed_initial.py", line 167, in <module>
-    main(**script_kwargs)
-  File "/home/s1930443/MRP1/t5_deepspeed_initial.py", line 122, in main
-    train_dataset=train_dataset,
-NameError: name 'train_dataset' is not defined
-wandb: Waiting for W&B process to finish... (failed 1). Press Control-C to abort syncing.
-  File "/home/s1930443/MRP1/t5_deepspeed_initial.py", line 167, in <module>
-    main(**script_kwargs)
-  File "/home/s1930443/MRP1/t5_deepspeed_initial.py", line 122, in main
-    train_dataset=train_dataset,
-wandb: Waiting for W&B process to finish... (failed 1). Press Control-C to abort syncing.
-NameError: name 'train_dataset' is not defined
-wandb: Waiting for W&B process to finish... (failed 1). Press Control-C to abort syncing.
-wandb: - 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: - 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: - 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: - 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: \ 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: \ 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: \ 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: \ 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: | 0.010 MB of 0.010 MB uploaded (0.000 MB deduped)wandb: 🚀 View run solar-deluge-14 at: https://wandb.ai/rothe/t5-deepspeed-alice-initial-test/runs/9s3zt3h3
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: /data1/s1930443/wandb/wandb/run-20230312_180313-9s3zt3h3/logs
-wandb: | 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: | 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: | 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: / 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: / 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: / 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: - 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: - 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: - 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: 🚀 View run breezy-wood-13 at: https://wandb.ai/rothe/t5-deepspeed-alice-initial-test/runs/qbfcbqt2
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: /data1/s1930443/wandb/wandb/run-20230312_180313-qbfcbqt2/logs
-wandb: 🚀 View run snowy-fire-15 at: https://wandb.ai/rothe/t5-deepspeed-alice-initial-test/runs/vlg61q9q
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: /data1/s1930443/wandb/wandb/run-20230312_180313-vlg61q9q/logs
-wandb: 🚀 View run different-valley-15 at: https://wandb.ai/rothe/t5-deepspeed-alice-initial-test/runs/kbkato83
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: /data1/s1930443/wandb/wandb/run-20230312_180313-kbkato83/logs
