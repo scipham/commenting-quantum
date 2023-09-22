@@ -2,7 +2,7 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from oauth2client.tools import argparser
 
-DEVELOPER_KEY = "AIzaSyArFQcyDH4e8DJYp9-CambiE5cZwQdUcvw"
+DEVELOPER_KEY = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 YOUTUBE_API_SERVICE_NAME = "youtube"
 YOUTUBE_API_VERSION = "v3"
 
@@ -43,7 +43,7 @@ def geo_query(video_id):
     youtube = build(YOUTUBE_API_SERVICE_NAME, YOUTUBE_API_VERSION,developerKey=DEVELOPER_KEY)
 
     video_response = youtube.videos().list(id=video_id,
-                                          part='snippet, recordingDetails, statistics',
+                                          part='snippet, record ingDetails, statistics',
                                           ).execute()
 
     return video_response
