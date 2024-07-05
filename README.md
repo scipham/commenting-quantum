@@ -1,6 +1,6 @@
 # commenting-quantum
 
-This repo provides partial access to the datasets and code mentioned in the thesis, _"Exploring sentiment and engagement of comments on news articles about quantum science & technology using pre-trained transformers"_, available at {THESIS PDF HANDLE, coming soon...]  <br>
+This repo provides partial access to the datasets and code mentioned in the thesis, _"Exploring sentiment and engagement of comments on news articles about quantum science & technology using pre-trained transformers"_, available at [https://hdl.handle.net/1887/3643976](https://hdl.handle.net/1887/3643976)  <br>
 
 Main contributions in this repo:
 - The full Reddit dataset (without annotations):  <br>
